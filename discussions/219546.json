@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "467668",
+    "ThreadId": "219546",
+    "Html": "<p>I've created a patch to be able to do Client Certificate authentication, if needed. You can get it here: <a href=\"http://jasmanseblog.blogspot.com/2010/07/webservice-studio-202-patch.html\">http://jasmanseblog.blogspot.com/2010/07/webservice-studio-202-patch.html</a></p>\r\n<p>If any of the assigned people are reading this, please apply it to the source tree.</p>",
+    "PostedDate": "2010-07-15T03:03:52.35-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "506183",
+    "ThreadId": "219546",
+    "Html": "<p>I've just opened alternate project on <a title=\"http://code.google.com/p/webservicestudio2/\" href=\"http://code.google.com/p/webservicestudio2/\">http://code.google.com/p/webservicestudio2/</a> and added your part of code and other improvements.</p>\r\n<p>Please take a look and feel free to join the project.</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-10-12T11:26:58.443-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

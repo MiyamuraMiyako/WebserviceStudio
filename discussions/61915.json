@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "210183",
+    "ThreadId": "61915",
+    "Html": "<p>Didn't previous versions have the ability to perform impersonation?</p>\r\n<p>I seem to remember adding&nbsp;the Domain,&nbsp;UserName and password to options and then clicking use these credentials.</p>\r\n<p>WSS only appears to use the currently logged in user now.</p>\r\n<p>Am I missing something simple?</p>\r\n<p>Thanks!</p>",
+    "PostedDate": "2009-07-08T15:08:08.57-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

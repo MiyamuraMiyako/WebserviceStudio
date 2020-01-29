@@ -1,0 +1,35 @@
+converting method System.OutOfMemoryException:.ctor (string)
+Method System.OutOfMemoryException:.ctor (string) emitted at 0xb68a6b80 to 0xb68a6ba3 (code length 35) [WebServiceStudio.exe]
+converting method (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+Method (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr) emitted at 0xb68a6bc0 to 0xb68a6c4e (code length 142) [WebServiceStudio.exe]
+converting method System.SystemException:.ctor (string)
+Method System.SystemException:.ctor (string) emitted at 0xb68a6c50 to 0xb68a6c73 (code length 35) [WebServiceStudio.exe]
+converting method System.Exception:.ctor (string)
+Method System.Exception:.ctor (string) emitted at 0xb68a6c80 to 0xb68a6c98 (code length 24) [WebServiceStudio.exe]
+converting method System.NullReferenceException:.ctor (string)
+Method System.NullReferenceException:.ctor (string) emitted at 0xb68a6c98 to 0xb68a6cbb (code length 35) [WebServiceStudio.exe]
+converting method System.StackOverflowException:.ctor (string)
+Method System.StackOverflowException:.ctor (string) emitted at 0xb68a6cc0 to 0xb68a6cd9 (code length 25) [WebServiceStudio.exe]
+converting method System.AppDomain:DoAssemblyResolve (string,bool)
+Method System.AppDomain:DoAssemblyResolve (string,bool) emitted at 0xb68a6ce8 to 0xb68a6f3f (code length 599) [WebServiceStudio.exe]
+converting method (wrapper runtime-invoke) <Module>:runtime_invoke_object__this___object_sbyte (object,intptr,intptr,intptr)
+Method (wrapper runtime-invoke) <Module>:runtime_invoke_object__this___object_sbyte (object,intptr,intptr,intptr) emitted at 0xb68a6f58 to 0xb68a6ffe (code length 166) [WebServiceStudio.exe]
+The entry point method could not be loaded
+converting method (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)
+Method (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr) emitted at 0xb68a7000 to 0xb68a7086 (code length 134) [WebServiceStudio.exe]
+converting method System.Threading.Thread:.cctor ()
+Method System.Threading.Thread:.cctor () emitted at 0xb68a7088 to 0xb68a70aa (code length 34) [WebServiceStudio.exe]
+converting method (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+Method (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr) emitted at 0xb68a70b8 to 0xb68a7122 (code length 106) [WebServiceStudio.exe]
+converting method (wrapper alloc) object:Alloc (intptr)
+Method (wrapper alloc) object:Alloc (intptr) emitted at 0xb68a7130 to 0xb68a71bd (code length 141) [WebServiceStudio.exe]
+converting method (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_specific (intptr)
+Method (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_specific (intptr) emitted at 0xb68a71d0 to 0xb68a723a (code length 106) [WebServiceStudio.exe]
+converting method System.Runtime.ConstrainedExecution.CriticalFinalizerObject:Finalize ()
+Method System.Runtime.ConstrainedExecution.CriticalFinalizerObject:Finalize () emitted at 0xb68a7240 to 0xb68a7262 (code length 34) [WebServiceStudio.exe]
+converting method System.Runtime.Remoting.Contexts.Context:Finalize ()
+Method System.Runtime.Remoting.Contexts.Context:Finalize () emitted at 0xb68a7268 to 0xb68a728a (code length 34) [WebServiceStudio.exe]
+converting method System.Threading.InternalThread:Finalize ()
+Method System.Threading.InternalThread:Finalize () emitted at 0xb68a7290 to 0xb68a72d1 (code length 65) [WebServiceStudio.exe]
+converting method (wrapper managed-to-native) System.Threading.InternalThread:Thread_free_internal (System.Threading.InternalThread,intptr)
+Method (wrapper managed-to-native) System.Threading.InternalThread:Thread_free_internal (System.Threading.InternalThread,intptr) emitted at 0xb68a72f0 to 0xb68a7376 (code length 134) [WebServiceStudio.exe]

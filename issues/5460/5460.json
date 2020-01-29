@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When a request is made to a web service that returns non-xml data, an unhandled exception is raised:\n \nSystem.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.",
+    "LastUpdatedDate": "2013-02-21T16:19:49.34-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "WebserviceStudio",
+    "ReportedDate": "2010-02-24T14:31:32.013-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Display complete response string when response is not xml-parsable",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 5460
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1864,
+      "FileName": "unhandled-exception-messagebox.JPG",
+      "DownloadUrl": ".\\1864"
+    },
+    {
+      "FileId": 1865,
+      "FileName": "unhandled-exception-stacktrace.txt",
+      "DownloadUrl": ".\\1865"
+    }
+  ],
+  "Comments": []
+}

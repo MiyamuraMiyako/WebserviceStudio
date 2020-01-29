@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "204034",
+    "ThreadId": "60263",
+    "Html": "<p>I have a web service that needs me to enter AuthHeader in the SOAP Request body, but I don't know how to enter these property by using WebServiceStudio.</p>\r\n<p>Here is a screenshot using &quot;Web Service GUI&quot; that could entering AuthHeader in their GUI.&nbsp; Does anyone could tell me how to enter these fields using WebServiceStudio?</p>\r\n<p><img src=\"http://docs.google.com/File?id=dfj7hts2_120dxtfg7dj_b\" alt=\"\"></p>\r\n<p>Thanks.</p>",
+    "PostedDate": "2009-06-22T05:37:29.643-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

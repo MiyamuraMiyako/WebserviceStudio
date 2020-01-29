@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "143482",
+    "ThreadId": "43170",
+    "Html": "I tried to invoke a web service which returns a dataset... but it fails. Any idea?<br>\r\n",
+    "PostedDate": "2008-12-30T02:35:34.293-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "147329",
+    "ThreadId": "43170",
+    "Html": "Havent tried this myself but is this an untyped dataset? If so, it could be failing because untyped datasets dont really have a strong contract that the tool can use when handling the response. <br>\r\n<br>\r\nHTH,<br>\r\nBenjy<br>\r\n<br>\r\n",
+    "PostedDate": "2009-01-15T04:20:41.99-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

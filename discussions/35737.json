@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "118758",
+    "ThreadId": "35737",
+    "Html": "Hi, <br>\r\nI'am experiencing problem using webmethods with sessionEnabled attribute = true. When I invoke a method which read a session variable, webserviceStudio crashes beacause the server return a null reference exception. It seems that the session varible does'nt exist. <br>\r\n<br>\r\nBut if I use the sendRequest() method (instead of invoke button), it's working fine.<br>\r\n<br>\r\nI didn't unsterstand why it crashes when I use the Invoke button because it's seem that the callback proxy has a CookieContainer object defined.<br>\r\n<br>\r\nTo do my test, I use a webservice with 2 methods : PutInSession(key,value) and ReadFromSession(key)<br>\r\n<br>\r\nIf I call PutInSession(&quot;A&quot;,&quot;XX&quot;) using invoke button, it's working fine. But after if I call ReadFromSession(&quot;A&quot;) using invoke button, it crashes.<br>\r\nBut, I hit send button (in request/response tab) it's working.\r\n",
+    "PostedDate": "2008-09-16T00:53:12.36-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

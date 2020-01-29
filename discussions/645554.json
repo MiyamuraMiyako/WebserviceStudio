@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1446230",
+    "ThreadId": "645554",
+    "Html": "Hi When, I invoke a web service through the tool, I always get the &quot;Data at the root level is invalid. Line 1, position 1&quot; exception in the response. The XML response appears to be fine with  no empty spaces in the starting the file. Not sure how to debug this response and find out the actual issues with my xml response.\r<br />\n<br />\nCan you please help me to find out whats the problem? The SOAP UI tool displays the response corectly.\r<br />\n<br />\nThe starting snippet of my xml response is as follows:\r<br />\n<br />\n&lt;soap:Envelope xmlns:soap=&quot;<a href=\"http://schemas.xmlsoap.org/soap/envelope/\" rel=\"nofollow\">http://schemas.xmlsoap.org/soap/envelope/</a>&quot;&gt;\r<br />\n   &lt;soap:Body&gt;<br />\n<pre><code>  &lt;tns:BrokerMemberDataResponse xmlns:tns=&quot;http://main.abzcorp.com/BrokerMemberData&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;\n     &lt;tns:BrokerMemberInfo&gt;\n        &lt;tns:DateOfNotice&gt;2015-09-27&lt;/tns:DateOfNotice&gt;\n        &lt;tns:CustomerFirstName&gt;John&lt;/tns:CustomerFirstName&gt;\n        &lt;tns:CustomerLastName&gt;Doe&lt;/tns:CustomerLastName&gt;</code></pre>\n\n",
+    "PostedDate": "2015-09-28T13:55:44.97-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

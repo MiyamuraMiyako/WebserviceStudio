@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "166557",
+    "ThreadId": "49766",
+    "Html": "I wonder if there is anyone out there has this issue that I run into.&nbsp; I am using WebService Studio 2.02.&nbsp; I click the Get button to get my list of web service methods to call.&nbsp; My list of web methods is very long but unfortunately this list does not appear in alphabetical order.&nbsp; Since the list is long and not ordered in any particular way, it is very difficult for me to find the web method I want to invoke and test.&nbsp; I have to scroll up and down for quite a while until I find it.<br>\r\n<br>\r\nIs there a way to get the list ordered?&nbsp; Is it the way I build my web methods causing the list not come out ordered?<br>\r\n<br>\r\nI would appreciate your advice on this issue.<br>\r\n",
+    "PostedDate": "2009-03-10T11:49:20.77-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "698264",
+    "ThreadId": "49766",
+    "Html": "<div id=\"_mcePaste\" class=\"mcePaste\" style=\"position: absolute; width: 1px; height: 1px; overflow: hidden; top: 0px; left: -10000px;\">﻿</div>\r\n<p>Hello,</p>\r\n<p>I have downloaded the source and looked for the tree of the web methods and added the following line under the (this.treeMethods.ExpandAll();) in the fuction (private void FillInvokeTab())</p>\r\n<pre>this.treeMethods.Sort();\r\n\r\n</pre>\r\n<p>now I can see the methods sorted alphabatically.</p>\r\n<p>regards,</p>\r\n<p>MS</p>",
+    "PostedDate": "2011-11-15T00:31:00.74-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

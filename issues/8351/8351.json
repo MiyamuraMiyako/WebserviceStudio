@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "What am I doing ?\nTrying to invoke a Method after filling the details that is about it without any modifications to WebServiceStudio.\nEverything went through seamlessly\nGenerating WSDL\nGenerating Proxy\nCompiling Proxy\nGenerated Assembly\nReflecting Proxy Assembly\nReady To Invoke\n============================================================\nThe Method I invoked had a Class Parameter which has fields.\nThese where populated using the tool.\nobject result = method.Invoke(proxy, BindingFlags.Public, null, parameters, null);\nInner Exception \n{\"Data at the root level is invalid. Line 1, position 1.\"}\n \n\"   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)\\r\\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)\\r\\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\\r\\n   at WebServiceStudio.MainForm.InvokeWebMethod() in C:\\\\TAutomation\\\\New folder\\\\WebServiceStudio\\\\MainForm.cs:line 723\\r\\n   at WebServiceStudio.MainForm.buttonInvoke_Click(Object sender, EventArgs e) in C:\\\\TAutomation\\\\New folder\\\\WebServiceStudio\\\\MainForm.cs:line 128\\r\\n   at System.Windows.Forms.Control.OnClick(EventArgs e)\\r\\n   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)\\r\\n   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)\\r\\n   at System.Windows.Forms.Control.WndProc(Message& m)\\r\\n   at System.Windows.Forms.ButtonBase.WndProc(Message& m)\\r\\n   at System.Windows.Forms.Button.WndProc(Message& m)\\r\\n   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)\\r\\n   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)\\r\\n   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)\\r\\n   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)\\r\\n   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)\\r\\n   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)\\r\\n   at WebServiceStudio.MainForm.Main() in C:\\\\TAutomation\\\\New folder\\\\WebServiceStudio\\\\MainForm.cs:line 770\\r\\n   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)\\r\\n   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()\\r\\n   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)\\r\\n   at System.Threading.ThreadHelper.ThreadStart()\"",
+    "LastUpdatedDate": "2013-02-21T16:19:48.623-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "WebserviceStudio",
+    "ReportedDate": "2011-04-06T16:50:45.753-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Exception has been thrown by the target of an invocation.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8351
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi.\nWindows 7 Ultimate x64 SP1\nWebServiceStudio 2.0.2\n\nI'm getting the error message: System.IndexOutOfRangeException: Index was outside the bounds of the array.\n\n```\nSee the end of this message for details on invoking \njust-in-time (JIT) debugging instead of this dialog box.\n\n************** Exception Text **************\nSystem.IndexOutOfRangeException: Index was outside the bounds of the array.\n   at WebServiceStudio.TreeNodeProperty.CreateTreeNodeProperty(Type[] possibleTypes, String name, Object val)\n   at WebServiceStudio.ClassProperty.CreateChildren()\n   at WebServiceStudio.ArrayProperty.CreateChildren()\n   at WebServiceStudio.ClassProperty.CreateChildren()\n   at WebServiceStudio.MethodProperty.AddBody()\n   at WebServiceStudio.MainForm.treeMethods_AfterSelect(Object sender, TreeViewEventArgs e)\n   at System.Windows.Forms.TreeView.TvnSelected(NMTREEVIEW* nmtv)\n   at System.Windows.Forms.TreeView.WmNotify(Message& m)\n   at System.Windows.Forms.TreeView.WndProc(Message& m)\n   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)\n   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)\n \n \n************** Loaded Assemblies **************\nmscorlib\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/Microsoft.NET/Framework64/v2.0.50727/mscorlib.dll\n----------------------------------------\nWebServiceStudio\n    Assembly Version: 0.0.0.0\n    Win32 Version: 0.0.0.0\n    CodeBase: file:///C:/WebServiceStudio%202.0.2/WebServiceStudio.exe\n----------------------------------------\nSystem.Windows.Forms\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Windows.Forms/2.0.0.0__b77a5c561934e089/System.Windows.Forms.dll\n----------------------------------------\nSystem\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll\n----------------------------------------\nSystem.Drawing\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Drawing/2.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll\n----------------------------------------\nSystem.Xml\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll\n----------------------------------------\nSystem.Configuration\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll\n----------------------------------------\n_zt1n6o6\n    Assembly Version: 0.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll\n----------------------------------------\nSystem.Web.Services\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Web.Services/2.0.0.0__b03f5f7f11d50a3a/System.Web.Services.dll\n----------------------------------------\nSystem.Data\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_64/System.Data/2.0.0.0__b77a5c561934e089/System.Data.dll\n----------------------------------------\nSystem.Design\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Design/2.0.0.0__b03f5f7f11d50a3a/System.Design.dll\n----------------------------------------\nlxih_syy\n    Assembly Version: 0.0.0.0\n    Win32 Version: 0.0.0.0\n    CodeBase: file:///C:/Users/rami.abughazaleh/AppData/Local/Temp/lxih_syy.dll\n----------------------------------------\njz6entth\n    Assembly Version: 0.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll\n----------------------------------------\nnfc_wxbk\n    Assembly Version: 0.0.0.0\n    Win32 Version: 0.0.0.0\n    CodeBase: file:///C:/Users/rami.abughazaleh/AppData/Local/Temp/nfc_wxbk.dll\n----------------------------------------\nkabmjvcg\n    Assembly Version: 0.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll\n----------------------------------------\namxvhhvh\n    Assembly Version: 0.0.0.0\n    Win32 Version: 0.0.0.0\n    CodeBase: file:///C:/Users/rami.abughazaleh/AppData/Local/Temp/amxvhhvh.dll\n----------------------------------------\nqdpzpz-l\n    Assembly Version: 0.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll\n----------------------------------------\n3eeh8j2e\n    Assembly Version: 0.0.0.0\n    Win32 Version: 0.0.0.0\n    CodeBase: file:///C:/Users/rami.abughazaleh/AppData/Local/Temp/3eeh8j2e.dll\n----------------------------------------\nsn54cf1c\n    Assembly Version: 0.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll\n----------------------------------------\nmv9_qshe\n    Assembly Version: 0.0.0.0\n    Win32 Version: 0.0.0.0\n    CodeBase: file:///C:/Users/rami.abughazaleh/AppData/Local/Temp/mv9_qshe.dll\n----------------------------------------\n1kok1pta\n    Assembly Version: 0.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll\n----------------------------------------\n \n************** JIT Debugging **************\nTo enable just-in-time (JIT) debugging, the .config file for this\napplication or computer (machine.config) must have the\njitDebugging value set in the system.windows.forms section.\nThe application must also be compiled with debugging\nenabled.\n \nFor example:\n \n<configuration>\n    <system.windows.forms jitDebugging=\"true\" />\n</configuration>\n \nWhen JIT debugging is enabled, any unhandled exception\nwill be sent to the JIT debugger registered on the computer\nrather than be handled by this dialog box.\n```",
+    "LastUpdatedDate": "2015-05-07T11:26:08.13-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "WebserviceStudio",
+    "ReportedDate": "2011-03-28T11:25:02.217-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "System.IndexOutOfRangeException: Index was outside the bounds of the array. at WebServiceStudio.TreeNodeProperty.CreateTreeNodeProperty(Type[] possibleTypes, String name, Object val)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8294
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

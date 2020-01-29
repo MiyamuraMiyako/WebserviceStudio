@@ -1,0 +1,56 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am tryig to run WebServiceStudio with Mono (on Ubuntu) but I get this error:\nThe entry point method could not be loaded",
+    "LastUpdatedDate": "2017-02-16T03:46:48.82-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "WebserviceStudio",
+    "ReportedDate": "2013-02-24T05:46:17.56-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Can't run with Mono",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10834
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3546,
+      "FileName": "mono.log",
+      "DownloadUrl": ".\\3546"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Looks like I was missing some dependencies. I installed all the Mono packages and now it works.",
+      "PostedDate": "2013-02-24T05:58:08.69-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-02-16T03:46:48.82-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

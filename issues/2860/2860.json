@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have been using the tool to test web service calls to a staging web service and to the production web service for debugging.  The tool works great, but since I have been switching back and forth from the staging WSDl to production WSDL, it has to recompile each time I click Get.  It would be faster if it could cache the assembly associated with each WSDL for some time, such as the duration of the application session.  Or perhaps based on some user option.",
+    "LastUpdatedDate": "2013-02-21T16:19:49.963-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "WebserviceStudio",
+    "ReportedDate": "2008-12-15T13:19:45.803-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "SUGGESTION: Cache Proxy Assembly",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2860
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Does it not help if you have 2 instances running together - one with production and one with test service?",
+      "PostedDate": "2010-08-04T00:52:03.92-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:19:49.963-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

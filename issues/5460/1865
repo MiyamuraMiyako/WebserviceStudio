@@ -1,0 +1,131 @@
+See the end of this message for details on invoking 
+just-in-time (JIT) debugging instead of this dialog box.
+
+************** Exception Text **************
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at System.Xml.XmlDocument.set_InnerXml(String value)
+   at WebServiceStudio.MessageTracer.ReadMessage(Stream from, Int32 len, String contentType)
+   at WebServiceStudio.WSSWebResponse.DumpResponse(WebResponse response)
+   at WebServiceStudio.WSSWebResponse.DumpResponse()
+   at WebServiceStudio.WSSWebRequest.GetResponse()
+   at System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+   at System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at MyService.Echo(String text)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at WebServiceStudio.MainForm.InvokeWebMethod()
+   at WebServiceStudio.MainForm.buttonInvoke_Click(Object sender, EventArgs e)
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+************** Loaded Assemblies **************
+mscorlib
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.3603 (GDR.050727-3600)
+    CodeBase: file:///C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/mscorlib.dll
+----------------------------------------
+WebServiceStudio
+    Assembly Version: 0.0.0.0
+    Win32 Version: 0.0.0.0
+    CodeBase: file:///C:/Thilak/Downloads/Release%202.0.2/Release/WebServiceStudio.exe
+----------------------------------------
+System.Windows.Forms
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.3053 (netfxsp.050727-3000)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System.Windows.Forms/2.0.0.0__b77a5c561934e089/System.Windows.Forms.dll
+----------------------------------------
+System
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.3053 (netfxsp.050727-3000)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll
+----------------------------------------
+System.Drawing
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.3053 (netfxsp.050727-3000)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System.Drawing/2.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll
+----------------------------------------
+System.Xml
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.3082 (QFE.050727-3000)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll
+----------------------------------------
+System.Configuration
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.3053 (netfxsp.050727-3000)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
+----------------------------------------
+xxq5e9nc
+    Assembly Version: 0.0.0.0
+    Win32 Version: 2.0.50727.3053 (netfxsp.050727-3000)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll
+----------------------------------------
+System.Web.Services
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.3053 (netfxsp.050727-3000)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System.Web.Services/2.0.0.0__b03f5f7f11d50a3a/System.Web.Services.dll
+----------------------------------------
+System.Data
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.3053 (netfxsp.050727-3000)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_32/System.Data/2.0.0.0__b77a5c561934e089/System.Data.dll
+----------------------------------------
+System.Design
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.3053 (netfxsp.050727-3000)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System.Design/2.0.0.0__b03f5f7f11d50a3a/System.Design.dll
+----------------------------------------
+-z-a3a9y
+    Assembly Version: 0.0.0.0
+    Win32 Version: 0.0.0.0
+    CodeBase: file:///C:/Documents%20and%20Settings/Administrator/Local%20Settings/Temp/-z-a3a9y.dll
+----------------------------------------
+7mugj7nc
+    Assembly Version: 0.0.0.0
+    Win32 Version: 2.0.50727.3053 (netfxsp.050727-3000)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll
+----------------------------------------
+Accessibility
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.3053 (netfxsp.050727-3000)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Accessibility/2.0.0.0__b03f5f7f11d50a3a/Accessibility.dll
+----------------------------------------
+
+************** JIT Debugging **************
+To enable just-in-time (JIT) debugging, the .config file for this
+application or computer (machine.config) must have the
+jitDebugging value set in the system.windows.forms section.
+The application must also be compiled with debugging
+enabled.
+
+For example:
+
+<configuration>
+    <system.windows.forms jitDebugging="true" />
+</configuration>
+
+When JIT debugging is enabled, any unhandled exception
+will be sent to the JIT debugger registered on the computer
+rather than be handled by this dialog box.
+
+

@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 2860,
+    "Title": "SUGGESTION: Cache Proxy Assembly"
+  },
+  {
+    "Id": 3142,
+    "Title": "Pb with session web services"
+  },
+  {
+    "Id": 5459,
+    "Title": "Unable to retrieve WSDL from SSL web services"
+  },
+  {
+    "Id": 5460,
+    "Title": "Display complete response string when response is not xml-parsable"
+  },
+  {
+    "Id": 8294,
+    "Title": "System.IndexOutOfRangeException: Index was outside the bounds of the array. at WebServiceStudio.TreeNodeProperty.CreateTreeNodeProperty(Type[] possibleTypes, String name, Object val)"
+  },
+  {
+    "Id": 8351,
+    "Title": "Exception has been thrown by the target of an invocation."
+  },
+  {
+    "Id": 10834,
+    "Title": "Can't run with Mono"
+  },
+  {
+    "Id": 10938,
+    "Title": "Empty url"
+  },
+  {
+    "Id": 11848,
+    "Title": "Failing to display a list of methods even when the wsdl file loads successfully"
+  }
+]

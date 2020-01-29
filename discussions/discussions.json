@@ -1,0 +1,72 @@
+[
+  {
+    "Id": "28662",
+    "Title": "Access Denied using Integrated Windows Authentication",
+    "LatestDate": "2010-04-12T04:56:52.457-07:00"
+  },
+  {
+    "Id": "35737",
+    "Title": "Problem with sessionEnabled service",
+    "LatestDate": "2008-09-16T00:53:12.36-07:00"
+  },
+  {
+    "Id": "42169",
+    "Title": "Packaging as RAR",
+    "LatestDate": "2014-07-03T05:57:41.35-07:00"
+  },
+  {
+    "Id": "43170",
+    "Title": "Is this tool works only when the retun types and parameters are primitive",
+    "LatestDate": "2009-01-15T04:20:41.99-08:00"
+  },
+  {
+    "Id": "45388",
+    "Title": "Nullable type error",
+    "LatestDate": "2010-10-12T11:30:13.93-07:00"
+  },
+  {
+    "Id": "47576",
+    "Title": "Asynchronous call ",
+    "LatestDate": "2009-02-19T02:24:33.953-08:00"
+  },
+  {
+    "Id": "49766",
+    "Title": "Ordering list of web methods",
+    "LatestDate": "2011-11-15T00:31:00.74-08:00"
+  },
+  {
+    "Id": "60263",
+    "Title": "How to enter WS.AuthHeader fields?",
+    "LatestDate": "2009-06-22T05:37:29.643-07:00"
+  },
+  {
+    "Id": "61915",
+    "Title": "Alternate Authentication",
+    "LatestDate": "2009-07-08T15:08:08.57-07:00"
+  },
+  {
+    "Id": "219546",
+    "Title": "Client Certificate Authentication",
+    "LatestDate": "2010-10-12T11:26:58.443-07:00"
+  },
+  {
+    "Id": "264622",
+    "Title": "Service contract adding error",
+    "LatestDate": "2011-07-10T23:20:28.27-07:00"
+  },
+  {
+    "Id": "471913",
+    "Title": "Doesn't work with \".wsdl\" type web service",
+    "LatestDate": "2013-12-04T08:32:57.687-08:00"
+  },
+  {
+    "Id": "645554",
+    "Title": "System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.",
+    "LatestDate": "2015-09-28T13:55:44.97-07:00"
+  },
+  {
+    "Id": "650305",
+    "Title": "WebServiceStudio vs SoapUI",
+    "LatestDate": "2016-01-21T07:32:09.677-08:00"
+  }
+]

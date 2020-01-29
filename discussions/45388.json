@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "151384",
+    "ThreadId": "45388",
+    "Html": "The latest source code of Webservice Studio has trouble handling Nullable Type.&nbsp; I created a simple webservice (WCF) with a nullable int in the request.&nbsp; After the tree is rendered in the form, the value field of the nullable variable doesn't take in any value.&nbsp; When try to change the IsNull to false, an error pops up with the following text &quot;Not able to create an Instance of System.Nullable `1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, Public....]]&quot;.&nbsp; Has anyone looked into this bug?&nbsp; <br>\r\n<br>\r\n<br>\r\n<img><img><br>\r\n",
+    "PostedDate": "2009-01-27T08:31:22.817-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "438594",
+    "ThreadId": "45388",
+    "Html": "<p>我这里是int的还行，decimal的不行，这是为啥呢？</p>",
+    "PostedDate": "2010-05-03T19:19:16.483-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "506185",
+    "ThreadId": "45388",
+    "Html": "<p>I've just opened alternate project on <a title=\"http://code.google.com/p/webservicestudio2/\" href=\"http://code.google.com/p/webservicestudio2/\">http://code.google.com/p/webservicestudio2/</a> and added solution of this problem. It's quite lame but it works for me.</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-10-12T11:30:13.93-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

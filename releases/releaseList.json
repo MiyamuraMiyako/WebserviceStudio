@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "0",
+    "Name": "May 2008 - 2.0.1",
+    "DevelopmentStatus": "None",
+    "Description": "First release with visual studio 2008 conversion and minor updates.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-05-29T16:20:04.92-07:00",
+    "Files": [
+      {
+        "Id": "cb2497cc-e031-4bb4-bf6d-5d87e4ae83c4",
+        "FileName": "Release 2.0.1.rar",
+        "Url": "./0/cb2497cc-e031-4bb4-bf6d-5d87e4ae83c4",
+        "Type": "Application",
+        "UploadDate": "2008-05-29T16:19:41.56-07:00"
+      },
+      {
+        "Id": "af895c02-ce6a-4930-b240-c15a826cb13f",
+        "FileName": "Src 2.0.1.rar",
+        "Url": "./0/af895c02-ce6a-4930-b240-c15a826cb13f",
+        "Type": "Source Code",
+        "UploadDate": "2008-05-29T16:19:41.543-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "May 2008 - 2.0.2",
+    "DevelopmentStatus": "None",
+    "Description": "Fixed the form display issues by moving source to the initialization. Modified the Get service button and the about box.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-05-30T17:04:57.41-07:00",
+    "Files": [
+      {
+        "Id": "c641bab5-f649-4bfd-9d20-84a320afc51b",
+        "FileName": "Release 2.0.2.rar",
+        "Url": "./1/c641bab5-f649-4bfd-9d20-84a320afc51b",
+        "Type": "Application",
+        "UploadDate": "2008-05-30T17:04:57.41-07:00"
+      },
+      {
+        "Id": "d8e2041f-35f5-4003-8321-df899dfa64bc",
+        "FileName": "Src 2.0.2.rar",
+        "Url": "./1/d8e2041f-35f5-4003-8321-df899dfa64bc",
+        "Type": "Source Code",
+        "UploadDate": "2008-05-30T17:04:57.58-07:00"
+      }
+    ]
+  }
+]

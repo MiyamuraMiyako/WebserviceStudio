@@ -1,0 +1,106 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When a HTTPS connection is queried for WSDL, it would be good if the tool can allow the user to select a certificate from the cert store to use.",
+    "LastUpdatedDate": "2016-02-10T05:09:16.42-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "WebserviceStudio",
+    "ReportedDate": "2010-02-24T14:11:44.88-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unable to retrieve WSDL from SSL web services",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 6,
+    "Id": 5459
+  },
+  "FileAttachments": [
+    {
+      "FileId": 5059,
+      "FileName": "WebServiceStudio.Edited.exe",
+      "DownloadUrl": ".\\5059"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "i've no idea of the cert stuff. just want to use this tool for https wsdl. is this possible? thanks.",
+      "PostedDate": "2010-04-19T00:32:27.447-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Initializing\r\nGenerating WSDL\r\nSystem.InvalidOperationException: General Error https://<......>?WSDL ---> System.Net.WebException: There was an error downloading 'https://<......>?WSDL'. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.\r\n...........",
+      "PostedDate": "2010-04-19T00:35:02.09-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Initializing\r\nGenerating WSDL\r\nSystem.InvalidOperationException: General Error https://<......>?WSDL ---> System.Net.WebException: There was an error downloading 'https://<......>?WSDL'. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.\r\n...........",
+      "PostedDate": "2010-04-19T00:38:16.337-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "See this: http://webservicestudio.codeplex.com/Thread/View.aspx?ThreadId=219546",
+      "PostedDate": "2010-08-25T08:22:01.027-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-10T13:33:17.32-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-04T19:47:44.897-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "i tried the new version (http://code.google.com/p/webservicestudio2/downloads/detail?name=WebServiceStudio2.exe&can=2&q=) to invoke the HTTPS WSDL but i still got the error message:  System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS.\r\nWould you please test with the HTTS WSDL: https://gsxwsut.apple.com/gsx-ws/services/emea/asp?wsdl\r\n\r\n",
+      "PostedDate": "2011-10-12T00:55:41.667-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I am currently having the same problems with .net WebService Studio, is this still a known issue or is there a work around?\r\n\r\nThanks\r\n\r\nRob",
+      "PostedDate": "2012-05-09T08:09:30.75-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:19:49.547-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2016-02-10T05:03:36.86-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I just made one change on app to accept certificates on download WSDL and invoke methods.\r\n\r\nMenu: Edit > Options > wsdl Settings > UseClientCert = True, and now it will prompt for certificate on invoke and \"get\". \r\n\r\nHope it helps!\n",
+      "PostedDate": "2016-02-10T05:03:39.74-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2016-02-10T05:09:16.42-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

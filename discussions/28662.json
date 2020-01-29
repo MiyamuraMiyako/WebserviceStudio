@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "95573",
+    "ThreadId": "28662",
+    "Html": "I am receiving the following error when trying to consume my webservice locally.  I can access the service just fine through my application and IE 7.0, but can't seem to call my service through WSS.  I have selected the UseDefaultCreditentials, KeepAlive and AllowAutoRedirect.  Anyone have any ideas?<br>\r\n<br>\r\n<span style=\"font-size:10px\">\r\n<p>ResponseCode: 401 (Access Denied)</p>\r\n<p>Date:Thu, 29 May 2008 18:51:43 GMT</p>\r\n<p>Server:Microsoft-IIS/5.1</p>\r\n<p>WWW-Authenticate:Negotiate,NTLM</p>\r\n<p>Connection:close</p>\r\n<p>Content-Length:24</p>\r\n<p>Content-Type:text/html</p>\r\n<p>Error: Access is Denied.</p>\r\n</span>\r\n",
+    "PostedDate": "2008-05-29T12:01:52.52-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "95670",
+    "ThreadId": "28662",
+    "Html": "I have not tested the WSS with IIS 7.0 however I believe there are some lock down settings in the application host config file which need to be setup to allow the NTML auth.<br>\r\n<pre>%windir%\\system32\\inetsrv\\config\\applicationHost.config<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"color:blue\">&lt;</span><span style=\"color:maroon\">windowsAuthentication</span> <span style=\"color:red\">enabled</span>=<span style=\"color:blue\">&quot;true&quot;</span> <span style=\"color:red\">lockElements</span>=<span style=\"color:blue\">&quot;providers&quot;</span><span style=\"color:blue\">&gt;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"color:blue\">&lt;</span><span style=\"color:maroon\">providers</span><span style=\"color:blue\">&gt;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:blue\">&lt;</span><span style=\"color:maroon\">add</span> <span style=\"color:red\">value</span>=<span style=\"color:blue\">&quot;Negotiate&quot;</span> <span style=\"color:blue\">/&gt;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:blue\">&lt;</span><span style=\"color:maroon\">add</span> <span style=\"color:red\">value</span>=<span style=\"color:blue\">&quot;NTLM&quot;</span> <span style=\"color:blue\">/&gt;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:blue\">&lt;/</span><span style=\"color:maroon\">providers</span><span style=\"color:blue\">&gt;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:blue\">&lt;/</span><span style=\"color:maroon\">windowsAuthentication</span><span style=\"color:blue\">&gt;</span><br><br><br>Might not be the solution you are looking for though. </pre>\r\n",
+    "PostedDate": "2008-05-29T17:07:09.647-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "429971",
+    "ThreadId": "28662",
+    "Html": "<p>I am also facing this Error with IIS 5.1, Any solution??</p>\r\n<p><span style=\"font-size:xx-small\">ResponseCode: 401 (Access Denied)&lt;font size=&quot;1&quot;&gt;\r\n<p>\r\n<p>Date:Mon, 12 Apr 2010 11:48:17 GMT</p>\r\n<p>Server:Microsoft-IIS/5.1</p>\r\n<p>WWW-Authenticate:Negotiate,NTLM</p>\r\n<p>Connection:close</p>\r\n<p>Content-Length:4431</p>\r\n<p>Content-Type:text/html</p>\r\n</p>\r\n&lt;/font&gt;</span></p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-04-12T04:56:52.457-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

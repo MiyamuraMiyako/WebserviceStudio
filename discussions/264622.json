@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "640254",
+    "ThreadId": "264622",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>I'm using .net 4, vs C# 2010 ultimate running on XP OS and I have been trying to use the web service software factory lately. I have this bug whenever I tried to add a new service contract saying that the path/file name is too long which exceeded 260 characters,\r\n but in fact, I tried to create a name as shortest as possible already and I can confirm that it didn't exceed the limit of 260 characters. Anyone faced this problem before or knowing how to solve it? Please help!</p>\r\n<p>Many thanks in advance.</p>\r\n",
+    "PostedDate": "2011-07-10T23:20:28.27-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi\nAssist with this issue.\nI want to use WebServiceStudio to test a web service. After specifying the location of the end point WSDL file and click get,  the file loads successfully. This i the message I get on the messages.\nInitializing\nGenerating WSDL\nGenerating Proxy\nCompiling Proxy\nGenerated Assembly\nReflecting Proxy Assembly\nReady To Invoke\n\nHowever when I go to the Invoke method, The methods are not displayed. There is nothing displayed. This does not happen on all webservices I want to test. I am able to connect public webservices on the Internet. Other testing tools like SoapUi are able to connect to this webservice.\nWhat do I need to configure on my environment?",
+    "LastUpdatedDate": "2015-07-18T01:25:49.807-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "WebserviceStudio",
+    "ReportedDate": "2014-09-06T02:47:09.917-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Failing to display a list of methods even when the wsdl file loads successfully",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 11848
+  },
+  "FileAttachments": [],
+  "Comments": []
+}
